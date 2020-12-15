@@ -21,16 +21,6 @@ struct PlaceService: PlaceServiceProtocol {
     func fetchPlaces(_ url: URL) -> Observable<[Place]> {
 
         return Observable.create { observer -> Disposable in
-            
-//            let data = Bundle(for: AppDelegate.self).loadData(from: "PlaceMock")
-//            do {
-//                let results = try JSONDecoder().decode(Results.self, from: data!)
-//                observer.onNext(results.place!)
-//            } catch {
-//                print(error)
-//            }
-
-
             NetworkClient().request(url).subscribe( onNext: { data in
                 do {
                     let results = try JSONDecoder().decode(Results.self, from: data)
