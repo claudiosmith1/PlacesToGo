@@ -11,6 +11,7 @@ import UIKit
 protocol PlacePhotoUrlBuilderProtocol {
     mutating func set(_ viewdata: PlaceViewData) -> Self
     var placeUrl: URL? { get set }
+    var queryBuilder: QueryBuilder! { get set }
 }
 
 extension PlacePhotoUrlBuilderProtocol {
@@ -30,11 +31,11 @@ extension PlacePhotoUrlBuilderProtocol {
               let height = viewdata.photo?.height.description,
               let width = viewdata.photo?.width.description else { return }
         
-        queryItems = addQueryItem(Query.key.photoReference, photoReference, queryItems)
-        queryItems = addQueryItem(Query.key.sensor, Query.sensor, queryItems)
-        queryItems = addQueryItem(Query.key.maxHeight, height, queryItems)
-        queryItems = addQueryItem(Query.key.maxWidth, width, queryItems)
-        queryItems = addQueryItem(Query.key.apikey, Query.apikey, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.photoReference, photoReference, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.sensor, Query.sensor, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.maxHeight, height, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.maxWidth, width, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.apikey, Query.apikey, queryItems)
         
         components.queryItems = queryItems
         placeUrl = components.url
@@ -49,13 +50,7 @@ extension PlacePhotoUrlBuilderProtocol {
         
         return components
     }
-        
-    private func addQueryItem(_ name: String, _ value: String?, _ queryItems: [URLQueryItem]) -> [URLQueryItem] {
-        var items = queryItems
-        items.append(URLQueryItem(name: name, value: value))
-        return items
-    }
-    
+
     func build() -> URL? {
         return placeUrl
     }
@@ -63,7 +58,10 @@ extension PlacePhotoUrlBuilderProtocol {
 
 struct PlacePhotoUrlBuilder: PlacePhotoUrlBuilderProtocol {
     var placeUrl: URL?
+    var queryBuilder: QueryBuilder!
+    
     init() {
-        placeUrl = URL(string: "")
+        placeUrl = URL(string: Constants.emptyString)
+        queryBuilder = QueryBuilder()
     }
 }

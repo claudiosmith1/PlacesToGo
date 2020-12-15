@@ -12,6 +12,7 @@ import CoreLocation
 protocol PlaceUrlBuilderProtocol {
     mutating func set(type: PlaceType, currentLocation: CLLocation) -> Self
     var placeUrl: URL? { get set }
+    var queryBuilder: QueryBuilder! { get set }
 }
 
 extension PlaceUrlBuilderProtocol {
@@ -31,12 +32,12 @@ extension PlaceUrlBuilderProtocol {
         var queryItems = [URLQueryItem]()
         
         let location = "\(lat),\(lon)"
-        queryItems = addQueryItem(Query.key.location, location, queryItems)
-        queryItems = addQueryItem(Query.key.radius, Query.radius, queryItems)
-        queryItems = addQueryItem(Query.key.type, type.querytext, queryItems)
-        queryItems = addQueryItem(Query.key.apikey, Query.apikey, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.location, location, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.radius, Query.radius, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.type, type.querytext, queryItems)
+        queryItems = queryBuilder.addQueryItem(Query.key.apikey, Query.apikey, queryItems)
+        
         components.queryItems = queryItems
-
         placeUrl = components.url
     }
 
@@ -49,21 +50,18 @@ extension PlaceUrlBuilderProtocol {
         
         return components
     }
-        
-    private func addQueryItem(_ name: String, _ value: String?, _ queryItems: [URLQueryItem]) -> [URLQueryItem] {
-        var items = queryItems
-        items.append(URLQueryItem(name: name, value: value))
-        return items
-    }
-    
+
     func build() -> URL? {
         return placeUrl
     }
 }
 
 struct PlaceUrlBuilder: PlaceUrlBuilderProtocol {
+    var queryBuilder: QueryBuilder!
     var placeUrl: URL?
+    
     init() {
         placeUrl = URL(string: "")
+        queryBuilder = QueryBuilder()
     }
 }

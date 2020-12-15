@@ -50,6 +50,7 @@
 		98D7E33D257DA8AB000DFD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D7E33C257DA8AB000DFD90 /* Assets.xcassets */; };
 		98D7E340257DA8AB000DFD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98D7E33E257DA8AB000DFD90 /* LaunchScreen.storyboard */; };
 		98D7E34B257DA8AC000DFD90 /* PlacesToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D7E34A257DA8AC000DFD90 /* PlacesToGoTests.swift */; };
+		98D92DCC2588538A00A1653E /* QueryBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D92DCB2588538A00A1653E /* QueryBuilder.swift */; };
 		98FF1B5B25882A4E00FDBAC1 /* MockPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98FF1B5A25882A4E00FDBAC1 /* MockPlace.swift */; };
 		98FF1B63258831B100FDBAC1 /* bbbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 98FF1B62258831B100FDBAC1 /* bbbar.png */; };
 		A7F71DC0BD840BBD0E3AA5F4 /* Pods_PlacesToGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B922EBC4D06A5F681A6B7591 /* Pods_PlacesToGo.framework */; };
@@ -115,6 +116,7 @@
 		98D7E346257DA8AC000DFD90 /* PlacesToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlacesToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D7E34A257DA8AC000DFD90 /* PlacesToGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesToGoTests.swift; sourceTree = "<group>"; };
 		98D7E34C257DA8AC000DFD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98D92DCB2588538A00A1653E /* QueryBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryBuilder.swift; sourceTree = "<group>"; };
 		98FF1B5A25882A4E00FDBAC1 /* MockPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPlace.swift; sourceTree = "<group>"; };
 		98FF1B62258831B100FDBAC1 /* bbbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bbbar.png; path = ../../../../../../../../Downloads/bbbar.png; sourceTree = "<group>"; };
 		A201B942C6DA6DCD037BBF40 /* Pods-PlacesToGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlacesToGoTests.release.xcconfig"; path = "Target Support Files/Pods-PlacesToGoTests/Pods-PlacesToGoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				9893095E25845F09008F56EC /* PlaceBuilder.swift */,
 				98D18FEC2586BA3000240537 /* PlacePhotoUrlBuilder.swift */,
 				98CE50932582FA3E00FD878D /* PlaceUrlBuilder.swift */,
+				98D92DCB2588538A00A1653E /* QueryBuilder.swift */,
 			);
 			path = Builder;
 			sourceTree = "<group>";
@@ -605,6 +608,7 @@
 				988D38692586A26600F7B4D9 /* PlaceDetailCoordinatorExtension.swift in Sources */,
 				9845F57D2585F9F800F1AA10 /* PlaceControllerLocation.swift in Sources */,
 				980CF4A0258199C600433B76 /* PlaceController.swift in Sources */,
+				98D92DCC2588538A00A1653E /* QueryBuilder.swift in Sources */,
 				98D18FED2586BA3000240537 /* PlacePhotoUrlBuilder.swift in Sources */,
 				980CF4A82581A62600433B76 /* NSObjectExtension.swift in Sources */,
 				98CE50942582FA3E00FD878D /* PlaceUrlBuilder.swift in Sources */,
