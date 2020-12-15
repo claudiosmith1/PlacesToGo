@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlaceController" customModule="PlacesToGo" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="7V2-qp-MBF" id="XjV-9b-qdJ"/>
+                <outlet property="filterButton1" destination="IUt-dJ-DcL" id="Uel-Yp-U0O"/>
+                <outlet property="filterButton2" destination="0P2-Ax-1P8" id="A4h-XV-3sK"/>
+                <outlet property="filterButton3" destination="2HS-oC-BRb" id="H7h-L9-e5v"/>
+                <outlet property="filteredLabel" destination="Kyj-Mu-tr3" id="MaW-Gv-5cH"/>
+                <outlet property="placeActionSheet" destination="Hlr-Z7-4f1" id="dSi-17-5cG"/>
+                <outlet property="placeTypeButton" destination="dKn-S8-ikI" id="Ls0-kg-bBX"/>
+                <outlet property="segmentedView" destination="T8V-nh-Keq" id="HbI-zQ-0If"/>
+                <outlet property="sheetHeightConstant" destination="w9u-1T-itr" id="aMm-f7-wEg"/>
+                <outlet property="sortSegmentedControl" destination="n70-AR-E7h" id="Dkh-To-eJ0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKn-S8-ikI" customClass="PlaceButton" customModule="PlacesToGo" customModuleProvider="target">
+                    <rect key="frame" x="82" y="44" width="250" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="moJ-yY-fiR"/>
+                        <constraint firstAttribute="width" constant="250" id="zi1-v3-fBX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
+                    <state key="normal" title="Escolha o tipo do local">
+                        <color key="titleColor" red="0.57366624989277282" green="0.88045092680608361" blue="0.37590795593361515" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="7V2-qp-MBF">
+                    <rect key="frame" x="0.0" y="212" width="414" height="684"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Xj7-C4-dBC">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurantes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kyj-Mu-tr3">
+                    <rect key="frame" x="0.0" y="112" width="414" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="GSN-nD-atj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                    <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T8V-nh-Keq">
+                    <rect key="frame" x="0.0" y="146" width="414" height="67"/>
+                    <subviews>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="n70-AR-E7h" customClass="PlaceSegmentedControl" customModule="PlacesToGo" customModuleProvider="target">
+                            <rect key="frame" x="33.5" y="7" width="347" height="32"/>
+                            <color key="backgroundColor" red="0.14975020399566008" green="0.23445900537634412" blue="0.21577426724230819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="347" id="0bV-g4-6oh"/>
+                                <constraint firstAttribute="height" constant="31" id="muO-vy-gtl"/>
+                            </constraints>
+                            <segments>
+                                <segment title="Rating"/>
+                                <segment title="Nome"/>
+                                <segment title="Aberto / fechado"/>
+                            </segments>
+                            <color key="tintColor" red="0.87856734240000001" green="1" blue="0.99206388329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="selectedSegmentTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="sortAction:" destination="-1" eventType="valueChanged" id="Gjk-TC-3rX"/>
+                            </connections>
+                        </segmentedControl>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="n70-AR-E7h" firstAttribute="top" secondItem="T8V-nh-Keq" secondAttribute="top" constant="7" id="Nlo-t0-jzm"/>
+                        <constraint firstItem="n70-AR-E7h" firstAttribute="centerX" secondItem="T8V-nh-Keq" secondAttribute="centerX" id="mEY-xb-dfT"/>
+                        <constraint firstAttribute="height" constant="67" id="n9b-UD-AYG"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hlr-Z7-4f1" customClass="PlaceActionSheet" customModule="PlacesToGo" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="686" width="414" height="210"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GqJ-wh-In1">
+                            <rect key="frame" x="0.0" y="190" width="414" height="1"/>
+                            <color key="backgroundColor" red="0.010796292635841531" green="0.090904304505922046" blue="0.14042898745519716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="d4x-78-Hge"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5T-3u-UIb">
+                            <rect key="frame" x="0.0" y="124" width="414" height="1"/>
+                            <color key="backgroundColor" red="0.010796292635841531" green="0.090904304505922046" blue="0.14042898745519716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="AfV-HR-SS7"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q7j-N8-UoO">
+                            <rect key="frame" x="0.0" y="58" width="414" height="1"/>
+                            <color key="backgroundColor" red="0.010796292635841531" green="0.090904304505922046" blue="0.14042898745519716" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="QgD-fs-tUF"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUt-dJ-DcL">
+                            <rect key="frame" x="0.0" y="0.0" width="406" height="58"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="58" id="Vys-Eb-Kfc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <state key="normal" title="Bar">
+                                <color key="titleColor" systemColor="systemYellowColor"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2HS-oC-BRb">
+                            <rect key="frame" x="0.0" y="132" width="406" height="58"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <state key="normal" title="Café">
+                                <color key="titleColor" systemColor="systemYellowColor"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0P2-Ax-1P8">
+                            <rect key="frame" x="0.0" y="66" width="406" height="58"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="20"/>
+                            <state key="normal" title="Restaurante">
+                                <color key="titleColor" systemColor="systemYellowColor"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.052733041350000003" green="0.1975479722" blue="0.30817610029999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="2HS-oC-BRb" firstAttribute="leading" secondItem="0P2-Ax-1P8" secondAttribute="leading" id="6fT-aq-KBc"/>
+                        <constraint firstItem="0P2-Ax-1P8" firstAttribute="top" secondItem="IUt-dJ-DcL" secondAttribute="bottom" constant="8" symbolic="YES" id="AmJ-RJ-GlN"/>
+                        <constraint firstItem="q7j-N8-UoO" firstAttribute="leading" secondItem="Hlr-Z7-4f1" secondAttribute="leading" id="DCN-9K-RGZ"/>
+                        <constraint firstItem="q7j-N8-UoO" firstAttribute="top" secondItem="IUt-dJ-DcL" secondAttribute="bottom" id="GOd-en-THa"/>
+                        <constraint firstItem="2HS-oC-BRb" firstAttribute="height" secondItem="0P2-Ax-1P8" secondAttribute="height" id="HyQ-gx-sVq"/>
+                        <constraint firstItem="0P2-Ax-1P8" firstAttribute="height" secondItem="IUt-dJ-DcL" secondAttribute="height" id="Lvq-ea-tAB"/>
+                        <constraint firstItem="IUt-dJ-DcL" firstAttribute="top" secondItem="Hlr-Z7-4f1" secondAttribute="top" id="Q1q-Wf-1jO"/>
+                        <constraint firstItem="2HS-oC-BRb" firstAttribute="top" secondItem="0P2-Ax-1P8" secondAttribute="bottom" constant="8" symbolic="YES" id="RXd-kq-r7u"/>
+                        <constraint firstItem="0P2-Ax-1P8" firstAttribute="trailing" secondItem="IUt-dJ-DcL" secondAttribute="trailing" id="XAh-xs-dxK"/>
+                        <constraint firstAttribute="trailing" secondItem="q7j-N8-UoO" secondAttribute="trailing" id="Y1N-zt-9Lf"/>
+                        <constraint firstItem="b5T-3u-UIb" firstAttribute="top" secondItem="0P2-Ax-1P8" secondAttribute="bottom" id="bVl-9x-KmS"/>
+                        <constraint firstItem="IUt-dJ-DcL" firstAttribute="leading" secondItem="Hlr-Z7-4f1" secondAttribute="leading" id="ckO-N0-AIM"/>
+                        <constraint firstItem="GqJ-wh-In1" firstAttribute="trailing" secondItem="b5T-3u-UIb" secondAttribute="trailing" id="dMp-4g-bPj"/>
+                        <constraint firstItem="b5T-3u-UIb" firstAttribute="leading" secondItem="q7j-N8-UoO" secondAttribute="leading" id="ggI-Rc-jdX"/>
+                        <constraint firstItem="0P2-Ax-1P8" firstAttribute="leading" secondItem="IUt-dJ-DcL" secondAttribute="leading" id="hBu-12-vSb"/>
+                        <constraint firstItem="GqJ-wh-In1" firstAttribute="top" secondItem="2HS-oC-BRb" secondAttribute="bottom" id="hiL-JL-sH9"/>
+                        <constraint firstItem="b5T-3u-UIb" firstAttribute="trailing" secondItem="q7j-N8-UoO" secondAttribute="trailing" id="i38-Zh-q8a"/>
+                        <constraint firstItem="2HS-oC-BRb" firstAttribute="trailing" secondItem="0P2-Ax-1P8" secondAttribute="trailing" id="nXx-r7-BZh"/>
+                        <constraint firstAttribute="trailing" secondItem="IUt-dJ-DcL" secondAttribute="trailing" constant="8" id="vaG-os-Jft"/>
+                        <constraint firstAttribute="height" constant="210" id="w9u-1T-itr"/>
+                        <constraint firstItem="GqJ-wh-In1" firstAttribute="leading" secondItem="b5T-3u-UIb" secondAttribute="leading" id="ykv-cf-hmq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.015848187730000001" green="0.015767771749999999" blue="0.019170071930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="7V2-qp-MBF" firstAttribute="top" secondItem="T8V-nh-Keq" secondAttribute="bottom" constant="-1" id="2eE-ez-rnP"/>
+                <constraint firstItem="dKn-S8-ikI" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="6jz-Ar-vjy"/>
+                <constraint firstItem="Kyj-Mu-tr3" firstAttribute="top" secondItem="dKn-S8-ikI" secondAttribute="bottom" constant="18" id="A0H-dt-f0i"/>
+                <constraint firstItem="T8V-nh-Keq" firstAttribute="top" secondItem="Kyj-Mu-tr3" secondAttribute="bottom" constant="10" id="CRO-HI-nQs"/>
+                <constraint firstItem="7V2-qp-MBF" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="JpT-ss-VHD"/>
+                <constraint firstItem="Hlr-Z7-4f1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QAz-6q-KpK"/>
+                <constraint firstItem="Kyj-Mu-tr3" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="SV7-LQ-rMP"/>
+                <constraint firstItem="7V2-qp-MBF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Y1t-Az-0qP"/>
+                <constraint firstItem="Hlr-Z7-4f1" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="bf6-ch-CPP"/>
+                <constraint firstItem="Kyj-Mu-tr3" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="fXu-cT-03H"/>
+                <constraint firstItem="dKn-S8-ikI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="l3P-xi-6F1"/>
+                <constraint firstItem="T8V-nh-Keq" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="lYx-gd-OpN"/>
+                <constraint firstAttribute="bottom" secondItem="Hlr-Z7-4f1" secondAttribute="bottom" id="nJM-3o-EAa"/>
+                <constraint firstAttribute="bottom" secondItem="7V2-qp-MBF" secondAttribute="bottom" id="p3y-Y2-hi0"/>
+                <constraint firstItem="T8V-nh-Keq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="zdy-ZO-dFl"/>
+            </constraints>
+            <point key="canvasLocation" x="-113.04347826086958" y="15.401785714285714"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

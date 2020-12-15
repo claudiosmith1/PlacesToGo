@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+        <array key="SourceSansPro-SemiBold.ttf">
+            <string>SourceSansPro-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="PlaceCell" customModule="PlacesToGo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="97"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="416" height="97"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sbp-v1-ImF">
+                        <rect key="frame" x="0.0" y="0.0" width="416" height="97"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wyl-9h-ZWV">
+                                <rect key="frame" x="8" y="36" width="22.5" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="SKB-7T-aR5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="16"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MeX-Yt-9jR">
+                                <rect key="frame" x="0.0" y="96" width="416" height="1"/>
+                                <color key="backgroundColor" red="0.05281933479129429" green="0.060119847670250914" blue="0.059642729545130009" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="REE-rr-Aj6"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="29g-v0-8Fa">
+                                <rect key="frame" x="8" y="8" width="393" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="pgA-RW-EaP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SourceSansPro-SemiBold" family="Source Sans Pro" pointSize="16"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="(19)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2a-99-rRy">
+                                <rect key="frame" x="149" y="36" width="252" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="prD-We-0jm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aberto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3KT-lQ-ZDW">
+                                <rect key="frame" x="8" y="62" width="47" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="jJH-3o-XG9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.31740167740000003" green="0.71049612760000003" blue="0.62994802000000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="USB-dg-suR" customClass="CosmosView" customModule="Cosmos">
+                                <rect key="frame" x="38" y="36.5" width="103" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="LDp-Wf-owd"/>
+                                    <constraint firstAttribute="width" constant="103" id="lP3-xj-RUB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="starMargin">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="updateOnTouch" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="emptyBorderColor">
+                                        <color key="value" systemColor="systemGray3Color"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillMode">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3KT-lQ-ZDW" firstAttribute="top" secondItem="wyl-9h-ZWV" secondAttribute="bottom" constant="5" id="7Im-vC-gu5"/>
+                            <constraint firstItem="USB-dg-suR" firstAttribute="centerY" secondItem="wyl-9h-ZWV" secondAttribute="centerY" id="8zu-SL-oHw"/>
+                            <constraint firstItem="USB-dg-suR" firstAttribute="leading" secondItem="wyl-9h-ZWV" secondAttribute="trailing" constant="7.5" id="Jij-FL-syE"/>
+                            <constraint firstItem="29g-v0-8Fa" firstAttribute="leading" secondItem="sbp-v1-ImF" secondAttribute="leading" constant="8" id="RMc-g4-o14"/>
+                            <constraint firstItem="29g-v0-8Fa" firstAttribute="top" secondItem="sbp-v1-ImF" secondAttribute="top" constant="8" id="Rvi-5J-J4e"/>
+                            <constraint firstAttribute="bottom" secondItem="MeX-Yt-9jR" secondAttribute="bottom" id="UQE-fF-aOi"/>
+                            <constraint firstItem="wyl-9h-ZWV" firstAttribute="top" secondItem="29g-v0-8Fa" secondAttribute="bottom" constant="7" id="Xia-8F-JIR"/>
+                            <constraint firstAttribute="trailing" secondItem="W2a-99-rRy" secondAttribute="trailing" constant="15" id="ZvR-3S-kbI"/>
+                            <constraint firstItem="wyl-9h-ZWV" firstAttribute="leading" secondItem="29g-v0-8Fa" secondAttribute="leading" id="jDQ-Lp-2Ab"/>
+                            <constraint firstAttribute="trailing" secondItem="29g-v0-8Fa" secondAttribute="trailing" constant="15" id="keD-Ws-kLe"/>
+                            <constraint firstItem="MeX-Yt-9jR" firstAttribute="leading" secondItem="sbp-v1-ImF" secondAttribute="leading" id="lyJ-Pz-cDD"/>
+                            <constraint firstItem="3KT-lQ-ZDW" firstAttribute="leading" secondItem="wyl-9h-ZWV" secondAttribute="leading" id="oWS-xq-rGb"/>
+                            <constraint firstItem="W2a-99-rRy" firstAttribute="centerY" secondItem="USB-dg-suR" secondAttribute="centerY" id="sEz-nB-X6x"/>
+                            <constraint firstItem="W2a-99-rRy" firstAttribute="leading" secondItem="USB-dg-suR" secondAttribute="trailing" constant="8" symbolic="YES" id="wge-WZ-mTf"/>
+                            <constraint firstAttribute="trailing" secondItem="MeX-Yt-9jR" secondAttribute="trailing" id="zrf-6T-5bR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="sbp-v1-ImF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8Xq-9u-jpl"/>
+                <constraint firstItem="sbp-v1-ImF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aa9-LR-2Te"/>
+                <constraint firstAttribute="trailing" secondItem="sbp-v1-ImF" secondAttribute="trailing" id="b2O-B6-n7O"/>
+                <constraint firstAttribute="bottom" secondItem="sbp-v1-ImF" secondAttribute="bottom" id="k4L-RR-9NB"/>
+            </constraints>
+            <size key="customSize" width="409" height="30"/>
+            <connections>
+                <outlet property="nameLabel" destination="29g-v0-8Fa" id="iwx-tW-yF1"/>
+                <outlet property="openNowLabel" destination="3KT-lQ-ZDW" id="XnE-PH-LI3"/>
+                <outlet property="ratingLabel" destination="wyl-9h-ZWV" id="220-73-GRM"/>
+                <outlet property="ratingsTotalLabel" destination="W2a-99-rRy" id="fSF-o1-qAf"/>
+                <outlet property="starsView" destination="USB-dg-suR" id="yNi-Fj-xbz"/>
+            </connections>
+            <point key="canvasLocation" x="-1223.1884057971015" y="-334.48660714285711"/>
+        </collectionViewCell>
+    </objects>
+    <designables>
+        <designable name="USB-dg-suR">
+            <size key="intrinsicContentSize" width="104" height="20"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

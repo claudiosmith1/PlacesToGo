@@ -1,0 +1,892 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "ATtYBwLL6Obb40LbUSBIRkUeXsbAijYVxAd2TyUZbHRln9t2yJJv8IIqzZa2hhRxTQ9CoShuDHnMpxLd1nRkZTA0_14DAUQ8l_0QJ-coTwIpekT1V3FcAGS2kqEt36iQ5Geny3ij5M-Jn67UM4VXMjDrDuBk0fjF6fzy3JoSGc5bwyOFOKC6RW0rH3-JrkfAxQOyFzhPp2mfozA01dQlVlaSbMLPPGKh7ycLd1Tm79yBmJrEU_MWp1i5P0d4xduhoeRsWnoqw8n0poyHaph4iD5MyesgrfVUtYQETyYN2luqUNJEite5AACHZlB-cOdi9V9GRzoCb5utsFUvRiKQrlPca2uVMwbKppueFnndU0QpOmzB_c7-Odk_NlB7KN4qJCw6MeYassZP0HD-88WP_4odE3tfZ5z4xQIMQng47fDNvXMwOnExLHs",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6275446,
+               "lng" : -46.7379748
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6261940697085,
+                  "lng" : -46.7366933697085
+               },
+               "southwest" : {
+                  "lat" : -23.6288920302915,
+                  "lng" : -46.7393913302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "name" : "AZ Motorcycle",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117322693420051342165\"\u003ekarina pizzo\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLfytTQhkCFlmPCnRcjeZcf7dNSzWCOuHmgt_84_Ryp85X0SD6nr_3-YMes9smF3wZ2tn63_ZCTedaKbhTj4tErOe5TS_hwJOxjneT7OEVVNQe4N6u037_KSO7Gb-O1Q3KwukyKVy1vd3LnHgv_BqzjxZvUK0Xs43eGN0IG5DmG9Eyl",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ9ZWSAU5RzpQR0U-01AT60dM",
+         "plus_code" : {
+            "compound_code" : "97C6+XR Morumbi, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97C6+XR"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJ9ZWSAU5RzpQR0U-01AT60dM",
+         "scope" : "GOOGLE",
+         "types" : [
+            "hair_care",
+            "car_repair",
+            "bar",
+            "health",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 117,
+         "vicinity" : "Rua Francisco Pessoa, 155 - Morumbi, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.626361,
+               "lng" : -46.7335674
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6250507197085,
+                  "lng" : -46.73226346970851
+               },
+               "southwest" : {
+                  "lat" : -23.6277486802915,
+                  "lng" : -46.73496143029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Garagem comes e bebes",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106947863404308962074\"\u003eThiago Linhares\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKIIXv9rtjp9aqDU7_N344oMCkAO1A5I4xukiTlP1umfTE5oToyuBkZ6cLdSUtGznWtvi9tlI6XYc4zpzXVpyzuF8JNTrTw9tlFRUw5LQLDSWIOFyBMeFYdzet5Rvkra7n-KTKI-0hy_NBeD6OF17GxfSRjcJ36Z57g32IpmR8rL4Zl",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ6Qubtk5RzpQR87cy4i0OtvU",
+         "plus_code" : {
+            "compound_code" : "97F8+FH Morumbi, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97F8+FH"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJ6Qubtk5RzpQR87cy4i0OtvU",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 476,
+         "vicinity" : "Rua Deputado João Sussumu Hirata, 806 - Morumbi, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6166044,
+               "lng" : -46.7406638
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6152523197085,
+                  "lng" : -46.7393821197085
+               },
+               "southwest" : {
+                  "lat" : -23.6179502802915,
+                  "lng" : -46.7420800802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Sí Señor!",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 610,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114589583292399035724\"\u003eSí Señor!\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIsfRGZxydKTOAoUfVIGD-porS0Ecsg1gLdj7gcWprsDA942tEXL9C1_YOYdEk0re7OYxIFOWEyx7EfEVJ4JSMAOcuuBEdHAl5DUKENdP6hVxaSHROZudJoExdpk566hiIXijXqIi0H9_L4SdfkGc6EjIZQwS2iK-aGOK5QShI0aMU-",
+               "width" : 919
+            }
+         ],
+         "place_id" : "ChIJ25DshaVWzpQRq9Fh3MzaaDg",
+         "plus_code" : {
+            "compound_code" : "97M5+9P Jardim Londrina, São Paulo - SP, Brazil",
+            "global_code" : "588M97M5+9P"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ25DshaVWzpQRq9Fh3MzaaDg",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 3337,
+         "vicinity" : "Avenida Doutor Guilherme Dumont Vilares, 1093 - Jardim Londrina, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6178259,
+               "lng" : -46.7485709
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6164314197085,
+                  "lng" : -46.7472686697085
+               },
+               "southwest" : {
+                  "lat" : -23.6191293802915,
+                  "lng" : -46.7499666302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Churrasquinho Miranda",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2100,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110089048767553326235\"\u003eChurrasquinho Miranda\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJvnwA2nn1y2mDJRWHG469UnaZ_mzyuCje_olmPav-97eY01oltSnQxQn8I-Xned4_BKcF1Fer8lOIstGe5qVfLxKimoeQ8Us6zRpAqtMCVEzi4AFic1boOwTDBQcv_s833uTmU_WFbdbAchXOm0LOmrnArMNTsyAfNTPVGco2A_tkR",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJoRrNkAJUzpQR5Xiwpgw_KHc",
+         "plus_code" : {
+            "compound_code" : "97J2+VH Jardim das Palmas, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97J2+VH"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJoRrNkAJUzpQR5Xiwpgw_KHc",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 10,
+         "vicinity" : "Rua Manoel Antônio, 135 - Jardim das Palmas, São Paulo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6167238,
+               "lng" : -46.7353207
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6153325197085,
+                  "lng" : -46.7340247697085
+               },
+               "southwest" : {
+                  "lat" : -23.6180304802915,
+                  "lng" : -46.7367227302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Maroá Bar & Restaurante",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112988991700437881323\"\u003eMaroá Bar &amp; Restaurante\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwIMcFzTeZXU3PwOB1ngtWTX3UpFTRDQrzG0uuNdb93Uw7lxxs6L2evZ0dZSlcfU-sLS31lxt3I6pKm_g6MP7XfGWloWkTAUpfKPYqVHKE8nA7SktfTWB8PttHnEjRey-CKpy_UeIXuNPlISY0ag5XtRwuA7mXGYQEDdwQZIFONiTxda",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJpyXk1rNWzpQRyX4YDpcIHkY",
+         "plus_code" : {
+            "compound_code" : "97M7+8V Morumbi, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97M7+8V"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJpyXk1rNWzpQRyX4YDpcIHkY",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 51,
+         "vicinity" : "Rua Marechal Hastimphilo de Moura, 233 - Morumbi, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6247243,
+               "lng" : -46.751949
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6233602197085,
+                  "lng" : -46.7505668697085
+               },
+               "southwest" : {
+                  "lat" : -23.6260581802915,
+                  "lng" : -46.75326483029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Bar Do Parque",
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103938234417445218598\"\u003eDiego Max\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwL8mHnTtl9toBS0muEsE2dhu4GDfN1Y9p0HTILABv_QI611jZo-_FGyocwwciFFyv_zgNub_jtR_4XirTUzCShVWjZjKzdpvJkmjuiw0cN4UYxRg2M4QxANIJ1M188ncfhIQoxqwbONdIlQcBm6oLOdnY12EUOoBY8tmy3zQccZe58r",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJ25f32ABUzpQRoilkQsl1V9Q",
+         "plus_code" : {
+            "compound_code" : "96GX+46 Campo Limpo, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M96GX+46"
+         },
+         "rating" : 4,
+         "reference" : "ChIJ25f32ABUzpQRoilkQsl1V9Q",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 49,
+         "vicinity" : "Rua Geraldo de Oliveira, 17 - Campo Limpo, São Paulo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6146629,
+               "lng" : -46.742302
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6133131697085,
+                  "lng" : -46.7410270697085
+               },
+               "southwest" : {
+                  "lat" : -23.6160111302915,
+                  "lng" : -46.7437250302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Garagem299",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2914,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113719957591661556264\"\u003eRicardo Risith\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwI3cbv2spTulkpfPkSXRYga7fL0erQreN6Z-3a1k_qRkHI3uiO0PNjX5DsJVEKzwH3m6gasvL73Nqao2hHPez6c7y-2BaiYADS4TYJdujN11h9QKQqQsr9pIoOkDxZyWLnciizaZlZCC6ihtnRDf-aDzhRbd9YM4rHvSoCrH1c_Ziu7",
+               "width" : 1960
+            }
+         ],
+         "place_id" : "ChIJExHNWq9WzpQRgdBxkp4S1h8",
+         "plus_code" : {
+            "compound_code" : "97P5+43 Jardim Vazani, São Paulo - SP, Brazil",
+            "global_code" : "588M97P5+43"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJExHNWq9WzpQRgdBxkp4S1h8",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 219,
+         "vicinity" : "Rua Doutor Luiz Migliano, 1215 - Jardim Vazani, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6137219,
+               "lng" : -46.74208460000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.61229986970849,
+                  "lng" : -46.74077431970851
+               },
+               "southwest" : {
+                  "lat" : -23.6149978302915,
+                  "lng" : -46.74347228029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Cia do Skate Shop n' Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107739049747290549801\"\u003eHenrique Antonio\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJpd6haolr4Lr8-s6T6mNXkykchf7qdKukqWT3F1HpUI1Q5U2dMlO_HWANx3hyJY4nV9zwWTAgu2uM2ueCehwVmPuREoyd7AxT8bp9rZYbj3036SCHCXiLVheKjXvePEgRef3DZebo_yIHJ4r2JI5ss9_AIjeypOkYqbteyGhfGv0j-",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ6yvnn7pWzpQRYlTHU1So4BQ",
+         "plus_code" : {
+            "compound_code" : "97P5+G5 Vila Suzana, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97P5+G5"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJ6yvnn7pWzpQRYlTHU1So4BQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 241,
+         "vicinity" : "Rua Professor José Horácio Meirelles Teixeira, 1237 - Loja 7 - Vila Suzana, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.630431,
+               "lng" : -46.73603799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.62934736970849,
+                  "lng" : -46.7349242697085
+               },
+               "southwest" : {
+                  "lat" : -23.6320453302915,
+                  "lng" : -46.7376222302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Nakombi",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114680291082141589747\"\u003ePantera Vermelha\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwJXo_MaHREtey6o5N5ck9b4sNyhra-253l6qxvvpRdD1-bpxZIb65hSRn9Bw27xBZ_G4CioXn0n7dZpnRQIiUlbaAafphkhn2SQnkdykh__n0llroBwc5qAJwRcLusBCSd8BX5-rb6VDIFaQPL5PYr3I_eGsGdN4MLDbtKuvMwHo-w",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJZU3jiE9RzpQRQm3FyBYoKAQ",
+         "plus_code" : {
+            "compound_code" : "9797+RH Morumbi, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M9797+RH"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJZU3jiE9RzpQRQm3FyBYoKAQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 463,
+         "vicinity" : "Avenida Giovanni Gronchi, 5819 - Morumbi, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.612752,
+               "lng" : -46.74319799999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6113525697085,
+                  "lng" : -46.7417731197085
+               },
+               "southwest" : {
+                  "lat" : -23.6140505302915,
+                  "lng" : -46.7444710802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Naoko Sushi Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117196362927406086450\"\u003eCinara de Liz\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwK-0DacJ0hRHHJTQbqYueY2yY9mUsVUz9rYK2aff8uFpfmbx6y3zDhq6c8ri5MW-RGUJ1rfcCgc1rU7G01ZXYvOnc-rZAksoelDV9pqCyBGWDzzoaP7WHAVTkAQE91HSgOEtKGi3mogbAMgB9i2dnrYv8AZN-2maujRhqfv3xkPco-0",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJNd78dqZWzpQR2oev3kBEEuw",
+         "plus_code" : {
+            "compound_code" : "97P4+VP Morumbi, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97P4+VP"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJNd78dqZWzpQR2oev3kBEEuw",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 137,
+         "vicinity" : "Rua Doutor Luiz Migliano, 870 - Loja 9 - Morumbi, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.623983,
+               "lng" : -46.755422
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6225947197085,
+                  "lng" : -46.75407651970851
+               },
+               "southwest" : {
+                  "lat" : -23.6252926802915,
+                  "lng" : -46.7567744802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+         "name" : "Disk Breja",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 562,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102379661422997429128\"\u003eDisk Breja\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKzAAu8UzNbfoZjZmnraGBLTgZy-wXmU_0m6Cwtr3zdbkVdU5ExLpuY4tYB8zeJBgMzLIuYvTjRuc8zNgXg5nSREsOJvugiHP1TWpEinM3hBIe4TEaeBcQaoSCDf6yf8OlLyoCrjqqWjB58UZvoczV1sPqhSqZEghKbhEthBWmpUBgT",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJj5qrZAZUzpQR-jD2n3EIrns",
+         "plus_code" : {
+            "compound_code" : "96GV+CR Jardim Umarizal, São Paulo - SP, Brazil",
+            "global_code" : "588M96GV+CR"
+         },
+         "reference" : "ChIJj5qrZAZUzpQR-jD2n3EIrns",
+         "scope" : "GOOGLE",
+         "types" : [
+            "liquor_store",
+            "bar",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "vicinity" : "Rua Maniçoba, 212 - Jardim Umarizal, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6254854,
+               "lng" : -46.7411799
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6240157197085,
+                  "lng" : -46.7398549197085
+               },
+               "southwest" : {
+                  "lat" : -23.6267136802915,
+                  "lng" : -46.7425528802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Espetinhos 4 Brothers",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114861480483455992843\"\u003eDrik Aciole\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLxCV4KDY5vebaZndJMnJwDQj_djdXeCB_Df-shUbxjsxNYP4AinVUA2FZEZz3eaoj98KlW_-uZ0tRm7T3AP4yhlx4pqU-SWEs7Leko6FOg5LLHVQJ3bVXJHr8JQ5WM2ByvEpj7iLexIVJe5HP8IV_7TNpNq46zxTk4OD8jp6MVWN-K",
+               "width" : 1836
+            }
+         ],
+         "place_id" : "ChIJqQFTD1NRzpQR4hn7Su5VpzY",
+         "plus_code" : {
+            "compound_code" : "97F5+RG Vila Andrade, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97F5+RG"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJqQFTD1NRzpQR4hn7Su5VpzY",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 77,
+         "vicinity" : "Rua José da Silva Ribeiro, 463 - Vila Andrade, São Paulo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6252199,
+               "lng" : -46.7405962
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.62377181970849,
+                  "lng" : -46.7393253697085
+               },
+               "southwest" : {
+                  "lat" : -23.6264697802915,
+                  "lng" : -46.7420233302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Boteco do Almir",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3264,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101617066827081157124\"\u003eBoteco do Almir\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKP70cAHtSa4_Pz_rtTrp5UwV5aMhXQIUrMxQ5AFWKwzcDTKSuyAN2Nd_TgaHN5FNBooz9Z4A3HyqShgU2G7FLZxNhugcHGhEX8BujG4z8QoI25wDef-5M2LXj6qjYahSKCWJoMN4f5BxmkEC44CKFIKz67XtgXk0KjyjKQctbXg8-c",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJDXXYAVNRzpQR4GEnY7f4ZhA",
+         "plus_code" : {
+            "compound_code" : "97F5+WQ Vila Andrade, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97F5+WQ"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJDXXYAVNRzpQR4GEnY7f4ZhA",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4,
+         "vicinity" : "Rua José da Silva Ribeiro, 415 - ap112 - Vila Andrade, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6246084,
+               "lng" : -46.7463637
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6232629697085,
+                  "lng" : -46.7450215697085
+               },
+               "southwest" : {
+                  "lat" : -23.62596093029151,
+                  "lng" : -46.7477195302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Sorrisos Bar",
+         "place_id" : "ChIJbdgxyapWzpQRHVAQbC_cygo",
+         "plus_code" : {
+            "compound_code" : "97G3+5F Campo Limpo, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97G3+5F"
+         },
+         "reference" : "ChIJbdgxyapWzpQRHVAQbC_cygo",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "vicinity" : "Brazil"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.627896,
+               "lng" : -46.73759279999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.62655991970849,
+                  "lng" : -46.7361243197085
+               },
+               "southwest" : {
+                  "lat" : -23.6292578802915,
+                  "lng" : -46.7388222802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Galo Véio do Distrito",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 667,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110729037208768387249\"\u003eGalo Véio do Distrito\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKVSRuWymhMEtjpnX_P1cdPAZgIvKNYruVVyFuEHp6rcllSj3Mb2KW2HQuQT4ykZc_0brSMjRbGzBlpI5qf0_d2xkbyR0yvFrFLE3W9PqzAbU4IOqp6dgGFevvZP5ZhNaiUDTtU1H-qZ5TAKuDgOimjknBC9uiUVPV7S0C6enFZilss",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJcbTEDZ9RzpQRin2tq8waTMg",
+         "plus_code" : {
+            "compound_code" : "97C6+RX Morumbi, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97C6+RX"
+         },
+         "price_level" : 2,
+         "rating" : 4.5,
+         "reference" : "ChIJcbTEDZ9RzpQRin2tq8waTMg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 735,
+         "vicinity" : "Rua Áureliano Guimarães, 100 - Morumbi, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6271406,
+               "lng" : -46.745648
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.62581146970849,
+                  "lng" : -46.7442942697085
+               },
+               "southwest" : {
+                  "lat" : -23.6285094302915,
+                  "lng" : -46.7469922302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Coqueiros Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 507,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105881860218013410638\"\u003eCoqueiros Bar\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKsZ4V9VTBP9l0_42hsa3TP635eEPvQWj121ykilHggVi0l6NmGSSqXedYI0dRoNcm4hjpAjBSHgJa63NnWUHqslyPferscsZkK2Z9K_vgFAHRD6KQAgRJSg965fb9qfwdj97Nei0F6MNipR4qFmJKOsqNbBubavjM50MpdftA_SYSx",
+               "width" : 903
+            }
+         ],
+         "place_id" : "ChIJ9UzQOA5RzpQR5gl51eIDxUk",
+         "plus_code" : {
+            "compound_code" : "97F3+4P Parque Reboucas, São Paulo - SP, Brazil",
+            "global_code" : "588M97F3+4P"
+         },
+         "rating" : 5,
+         "reference" : "ChIJ9UzQOA5RzpQR5gl51eIDxUk",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1,
+         "vicinity" : "Rua Canto do Rio Verde, n°572 - Parque Reboucas, São Paulo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6204566,
+               "lng" : -46.74593900000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6191052697085,
+                  "lng" : -46.7446663697085
+               },
+               "southwest" : {
+                  "lat" : -23.6218032302915,
+                  "lng" : -46.7473643302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Bar Amaro das Palmas",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111483011613559927814\"\u003eRicardo Luis Jordão de Magalhães\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwLB2n49noZtCZ0hzBMShDZ1Ufr7FjmsMNuqzztUEi_TUENE_Ipe6hVv5I-x4opdcLuv76s6J4IxU0sj7lCVu_18WoaQ92-0roCXNQbjc_Q0mIRGZUbbOuW-51gUPEU80cHmHi3pVPedsUHJlTizoe02lS8FA69qNYd0RpbS1nYbiebL",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJudk1-PxXzpQRzMPLHxRZjVI",
+         "plus_code" : {
+            "compound_code" : "97H3+RJ Jardim das Palmas, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97H3+RJ"
+         },
+         "rating" : 5,
+         "reference" : "ChIJudk1-PxXzpQRzMPLHxRZjVI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2,
+         "vicinity" : "Rua José Maria Pinto Zilli, 665 - Jardim das Palmas, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6278875,
+               "lng" : -46.7348689
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6265654697085,
+                  "lng" : -46.7335947697085
+               },
+               "southwest" : {
+                  "lat" : -23.62926343029151,
+                  "lng" : -46.7362927302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "name" : "Padoca do Brique",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112351838130717115908\"\u003eAlan Oliveira\u003c/a\u003e"
+               ],
+               "photo_reference" : "ATtYBwKSCsOCQtiPaVnGiyWzy_gQJ5diAlTMG-QgK1RsNMTmwcXBtldbipRdOMrhk5gE6fmvEHT7jQ0CVY_ZzF0gZGHfZ_C0RsLMxVk2SzSLOzahAAZzHaegELeG4mO5pekGI2fyKjx-in2qpUM_NMqHqLqPYVO0h-z99KDhjHDhJ2SSDAEU",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ1V-LGUtRzpQRQ6u2NJmwIi8",
+         "plus_code" : {
+            "compound_code" : "97C8+R3 Morumbi, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97C8+R3"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJ1V-LGUtRzpQRQ6u2NJmwIi8",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "bar",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 185,
+         "vicinity" : "Rua Doutor Fonseca Brasil, 107 - Morumbi, São Paulo"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6310803,
+               "lng" : -46.7439632
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.62972986970849,
+                  "lng" : -46.74260631970851
+               },
+               "southwest" : {
+                  "lat" : -23.6324278302915,
+                  "lng" : -46.74530428029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Bar do Ademir",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJEYglBTpRzpQRuz6AE8yc2Q8",
+         "plus_code" : {
+            "compound_code" : "9794+HC Jardim Sao Roque, São Paulo - SP, Brazil",
+            "global_code" : "588M9794+HC"
+         },
+         "reference" : "ChIJEYglBTpRzpQRuz6AE8yc2Q8",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "vicinity" : "Rua Agéladas, 766 - Jardim Sao Roque, São Paulo"
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : -23.6245977,
+               "lng" : -46.74925210000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : -23.6232450197085,
+                  "lng" : -46.7479471697085
+               },
+               "southwest" : {
+                  "lat" : -23.6259429802915,
+                  "lng" : -46.7506451302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "name" : "Blackout Music Bar!",
+         "permanently_closed" : true,
+         "place_id" : "ChIJt0ksagBUzpQRfdBPXOvk9KU",
+         "plus_code" : {
+            "compound_code" : "97G2+57 Vila Andrade, São Paulo - State of São Paulo, Brazil",
+            "global_code" : "588M97G2+57"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJt0ksagBUzpQRfdBPXOvk9KU",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 7,
+         "vicinity" : "1049, Rua Maniçoba, 979 - Vila Andrade, São Paulo"
+      }
+   ],
+   "status" : "OK"
+}
