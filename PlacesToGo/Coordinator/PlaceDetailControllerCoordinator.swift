@@ -32,12 +32,10 @@ class PlaceDetailControllerCoordinator: Coordinator {
     }
     
     func start() {
-//        let service: PlaceServiceProtocol = PlaceService()
-//        let viewModel = PlaceViewModel(service)
-        
         let controller = PlaceDetailController().instanceXib()
         controller.viewModel = viewModel
         controller.viewdata = viewData
+        controller.placeImage?.image = UIImage(named: Assets.background)
         controller.delegate = self
         navigationController.pushViewController(controller, animated: true)
     }

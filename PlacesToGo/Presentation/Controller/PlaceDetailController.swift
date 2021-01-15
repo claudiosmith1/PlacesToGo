@@ -17,7 +17,7 @@ protocol PlaceDetailControllerProtocol: class {
 class PlaceDetailController: UIViewController {
 
     var viewModel: PlaceViewModel!
-    var delegate: PlaceDetailControllerProtocol?
+    weak var delegate: PlaceDetailControllerProtocol?
     var viewdata: PlaceViewData!
     
     let observerPhoto: BehaviorRelay<UIImage?> = BehaviorRelay(value: nil)
@@ -31,7 +31,7 @@ class PlaceDetailController: UIViewController {
         image.translatesAutoresizingMaskIntoConstraints = false
         return image
     }()
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         didLoad()
@@ -40,9 +40,8 @@ class PlaceDetailController: UIViewController {
     private func didLoad() {
         self.title = viewdata.name
         
-        placeImage?.setNeedsDisplay()
+        setupImage()
         indicatorView.create()
-        viewModel.fetchPhoto(viewdata: viewdata)
         setImageSize()
         
         bindViewModel()
@@ -50,6 +49,11 @@ class PlaceDetailController: UIViewController {
         setupBindingError()
     }
     
+    private func setupImage() {
+        placeImage?.frame = CGRect.zero
+        placeImage?.isHidden = true
+        placeImage?.setNeedsDisplay()
+    }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         setupViews()
@@ -68,6 +72,7 @@ class PlaceDetailController: UIViewController {
     
     private func setupViews() {
         guard let placeImage = placeImage else { return }
+        placeImage.isHidden = false
         
         view.addSubview(placeImage)
         NSLayoutConstraint.activate([

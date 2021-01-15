@@ -65,6 +65,7 @@ enum ServiceError: Error {
     case invalidResponse
     case invalidData
     case decodeError
+    case noInternet
 
     public var errorMessage: String {
         switch self {
@@ -78,8 +79,14 @@ enum ServiceError: Error {
             return "Response retornou dados vazios ou inválidos"
         case .decodeError:
             return "Erro ao decodificar o data retornado"
+        case .noInternet:
+            return "Sem conexão de internet"
         }
     }
+}
+
+struct ErrorKnown {
+   static let noConnection = 13
 }
 
 public enum HTTPError: Int {

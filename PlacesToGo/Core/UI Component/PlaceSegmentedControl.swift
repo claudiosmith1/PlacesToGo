@@ -26,7 +26,7 @@ class PlaceSegmentedControl: UISegmentedControl {
     
     private func setFont() {
         let fontNormal = [NSAttributedString.Key.font: UIFont.regular(size: Numbers.segmentedFontSize),
-                          NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.3450879835, green: 0.3733619802, blue: 0.4113043235, alpha: 1)] as [NSAttributedString.Key : Any]
+                          NSAttributedString.Key.foregroundColor: #colorLiteral(red: 0.501960814, green: 0.501960814, blue: 0.501960814, alpha: 1)] as [NSAttributedString.Key : Any]
 
         setTitleTextAttributes(fontNormal, for: .normal)
         

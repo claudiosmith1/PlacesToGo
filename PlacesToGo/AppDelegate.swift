@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-//        UIVisualEffectView.appearance(whenContainedInInstancesOf: [UIAlertController.classForCoder() as! UIAppearanceContainer.Type]).effect = UIBlurEffect(style: .dark)
         return startCoordinator()
     }
     
@@ -29,12 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let rootController = window?.rootViewController as? UINavigationController else {
             return false
         }
-        
-        
-        // Initialise the first coordinator with the main navigation controller
+
         coordinator = PlaceControllerCoordinator(rootController)
-        
-        // The start method will actually display the main view
         coordinator?.start()
         
         window?.makeKeyAndVisible()

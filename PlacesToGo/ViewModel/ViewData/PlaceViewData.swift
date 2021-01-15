@@ -60,7 +60,7 @@ enum PlaceState: Int {
     var color: UIColor {
         switch self {
         case .open: return #colorLiteral(red: 0.3174016774, green: 0.7104961276, blue: 0.62994802, alpha: 1)
-        case .closed: return #colorLiteral(red: 0.8626652106, green: 0.03104315894, blue: 0.1285452836, alpha: 1)
+        case .closed: return #colorLiteral(red: 1, green: 0.01197787784, blue: 0.3234823555, alpha: 1)
         }
     }
 }

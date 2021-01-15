@@ -48,6 +48,7 @@ struct Constants {
     static let maxStatusSuccess = 300
     static let alertBug = "width == - 16"
     static let permissionError = "É necessário permitir a sua localização no app."
+    static let noPhoto = "não possui foto."
 }
 
 struct Numbers {
@@ -74,4 +75,5 @@ struct Numbers {
 
 struct Assets {
     static let arrowLeft = "arrowLeft"
+    static let background = "black"
 }

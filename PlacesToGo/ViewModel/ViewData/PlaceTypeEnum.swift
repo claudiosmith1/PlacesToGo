@@ -18,9 +18,9 @@ enum PlaceType: Int {
     
     var text: String {
         switch self {
-        case .bar: return "Bar"
-        case .restaurant: return "Restaurante"
-        case .cafe: return "Café"
+        case .bar: return "Bares"
+        case .restaurant: return "Restaurantes"
+        case .cafe: return "Cafés"
         }
     }
     var querytext: String {

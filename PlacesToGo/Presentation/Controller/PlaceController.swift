@@ -134,6 +134,7 @@ class PlaceController: UIViewController {
         collectionView.rx.modelSelected(PlaceViewData.self).subscribe(onNext: { [weak self] (model) in
             guard let self = self else { return }
             if self.checkValidPhoto(viewdata: model) {
+                self.viewModel.fetchPhoto(viewdata: model)
                 self.delegate?.navigateToPlaceDetails(self.viewModel, viewdata: model)
             }
         }).disposed(by: disposeBag)
@@ -142,7 +143,7 @@ class PlaceController: UIViewController {
     private func checkValidPhoto(viewdata: PlaceViewData) -> Bool {
         
         guard viewModel.checkIfHasPhoto(viewdata: viewdata) == true else {
-            self.alert(message: "\(viewdata.name) não possui foto.",
+            self.alert(message: "\(viewdata.name) \(Constants.noPhoto)",
                        completion: {_ in })
             return false
         }

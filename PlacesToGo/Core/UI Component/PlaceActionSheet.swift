@@ -24,7 +24,7 @@ class PlaceActionSheet: UIView {
     }
 
     private func background() {
-        backgroundColor = #colorLiteral(red: 0.01637987508, green: 0.06243502688, blue: 0.09746023746, alpha: 1)
+        backgroundColor = #colorLiteral(red: 0.02920314937, green: 0.1175075582, blue: 0.1876680108, alpha: 1)
     }
 
 }
